@@ -1,0 +1,39 @@
+.main{
+    padding: 0 0 4rem 0;
+}
+
+.main-container{
+    max-width: 1140px;
+    margin: auto;
+}
+.allCard{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.popularHeading{
+    margin: 4rem 0 2rem 0;
+}
+
+.left-right-arrow{
+    min-height: 384.84px;
+}
+
+.card-body{
+    background-color: #fffaf9;
+}
+
+.recentCard{
+    max-height: 1026px;
+}
+
+.recentCard .card{
+    max-height: 350px;
+}
+
+.recentCard img{
+    max-height: 340px;
+    object-fit: cover;
+    width: 100%;
+}

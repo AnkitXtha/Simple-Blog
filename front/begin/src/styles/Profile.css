@@ -1,0 +1,42 @@
+.main-section{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.user-details{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2rem 0;
+}
+
+.user-details img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.blogs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blogs h2, .blogs p {
+    padding: 0;
+    margin: 0;
+}
+
+.blogs h2{
+    font-size: 24px;
+}
+
+.blogs .date {
+    color: #ccc;
+}
+
+.blog-header{
+    padding: 1rem 0;
+}

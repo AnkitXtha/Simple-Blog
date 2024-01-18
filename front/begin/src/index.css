@@ -1,0 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+:root{
+    --header-color: #DDCAEA;
+    --body-bg: #efe9f2;
+}
+
+body{
+    background-color: var(--body-bg);
+    font-family: 'Roboto', sans-serif;
+    /* margin-top: -192px; */
+}

@@ -1,0 +1,33 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0;
+    background-color: var(--header-color);
+}
+
+.footer-logo img{
+    max-width: 100px;
+}
+
+p{
+    color: #635b6a;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.footer-menu a{
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #635b6a;
+}
+
+.footer-menu a:hover{
+    color: #FF7C5E;
+}
+.footer-menu a:nth-child(2){
+    border-left: 1px solid #FF7C5E;
+    border-right: 1px solid #FF7C5E;
+    padding: 0rem 1rem;
+}
